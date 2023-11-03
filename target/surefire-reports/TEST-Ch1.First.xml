@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Ch1.First" time="27.723" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/test-classes:/Users/salemk/Downloads/TAU_RestAssured_Course/target/classes:/Users/salemk/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/salemk/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/salemk/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/salemk/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/salemk/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/salemk/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/salemk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/salemk/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/salemk/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/salemk/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/salemk/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/salemk/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/salemk/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EG"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.7.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire/surefirebooter7055670513271571450.jar /Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire 2023-11-03T14-20-55_440-jvmRun1 surefire12755601368818483936tmp surefire_06007173415532302456tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/test-classes:/Users/salemk/Downloads/TAU_RestAssured_Course/target/classes:/Users/salemk/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/salemk/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/salemk/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/salemk/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/salemk/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/salemk/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/salemk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/salemk/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/salemk/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/salemk/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/salemk/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/salemk/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/salemk/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/salemk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.7.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/salemk/Downloads/TAU_RestAssured_Course"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire/surefirebooter7055670513271571450.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="salemk"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/salemk/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/p4/jtgl4d7j4qdg86mdfxzmmlq8rk79yc/T/"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="/Users/salemk/Downloads/TAU_RestAssured_Course"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/salemk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="P1_mayar" classname="Ch1.First" time="0.001">
+    <system-out><![CDATA[mayar
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourse" classname="Ch1.First" time="2.334">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:20:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qmcPdANf7lfV%2BjMsk35yE3umlaBFzXHLejFIhY%2F4vScdz9SiLXUndcYHcLrx7zwSEhg5R4VVqegqngNYWV38kwp%2BYzxXKlFb1zLudJSYSLM11%2B6v3rIFp1swSTwTgL5y9sskZA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820493056b2570ec-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="1.22">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:20:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PFJej5kTXZbzWMJtAHqT6NfejKFhy9ojjdPs%2B0CfzUJPj%2FplFTDv8P2mJPcfhquw6mYKBm48RWWURJlUuBYfAzZ1XeFADO6W7XcTb0i8463yS64upLTmcodsGnxCyz5nN3X%2FHg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8204930f6f5f076f-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing[us, 12345, Schenectady](2)" classname="Ch1.First" time="1.334">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Oucuj3KjcBQDp36guMYmDqtx7yHzUXDnS2QH5e6ms2gw3qsBugJ1NWysltPpP3vt7gU02ocXHd5s1agdj1KUsWBkFamYRWbaqQ64naRjXl5BldWc%2BXXFiGD%2B2tso4l9rjKIY4w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 82049315e9f712b5-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing[ca, B2R, Waverley](3)" classname="Ch1.First" time="1.415">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VMGoanniWcv0GVdvqTl5SxL%2FnxyB1Hw8oBV1WQ98NmOdG5ziAPplaN2jwxSM%2FBMh%2B5c0s9Gqqo3l7ETvMD%2BoP3xnt%2FFB3Ul50GWeLdXtIa3809B9uEwRu9wzwx1vbgtvhahZQw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8204931f5d1c0c50-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing2[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="1.495">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=amnqhpGYbp4mfAQe7rpucZ6WRhH4AdwxweST4LeFA183dFM0u%2B7PcXD688S9qjWP4HUkYygvrVfGh6gxPAYvoIKGmySXcwiyvVuGE%2BhQzCgX7d8SXd9T4cs9siSESz2tQCp58w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8204932a099d1227-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing2[us, 12345, Schenectady](2)" classname="Ch1.First" time="1.191">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:04 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uuNx3pnY7DIc0p%2F0sLuK5BVDWbpsGTAddBZu1Zq0vqGBxlDJV5jnPq8tRHzzsmEkB9gYiplVP3gnHb%2FIkJjnuwyWF6IfsBU40Fo82zOWwVZ110xmpCiXcOQCCvsMzvGkZkZlLw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820493306d6b1858-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing2[ca, B2R, Waverley](3)" classname="Ch1.First" time="1.835">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NEKDAGaBoT1nvfJjnQWLnyoi29lNbVy5J4ESpr98UjGiRsYioLp3tSxID966gEej%2Ffh%2Bhi6mYBWubyeyplBL0kCisxsBLbzmaHVS9u2IaBRIM3IJcVUq8UpnvAoAHfYLsaZwvQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8204933bda4573a3-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing3[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="1.118">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=llPuM2H4lmNhFLgJv9n3LMTYWQ9OcLMCwV1N4EhfLqOzgohD3MmFHz6ZRg8%2Fmm%2FFtdeGTS5SPwpiMXpTPgNBR7lTSyoJDPEkkmO2DUZZCcJKIfHRUiZiFMF7jjBob2TfEmpmCg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 82049343ae915fa0-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing3[us, 12345, Schenectady](2)" classname="Ch1.First" time="1.185">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=trSsIwmZmkcOTjvsfUumrHNeUSUGEFrda%2BxlsrsRjrAU0tRGhPsQT05iFVhK0xKhJxfOsZ0Lx4ZoC1lchFr3FQUjxvtv6rvcRMJ9xZZHkAprLwNeaxvn6Dayzu8iUTdwdX6fDQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8204934b19900daa-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing3[ca, B2R, Waverley](3)" classname="Ch1.First" time="1.277">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:10 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RU9HuCTt5%2BzIGaHUH1sTU%2FODdVYWAaajDWI4itoH5nlrGFzFFBOieYwPFTzQ0KPb3X3ykuadUSBwEyIMBpEgWIa4XUPskn2LcSUpwlKM1ul0mRQmqb7taPujA8OXZtN5Efd3nA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820493523eaf0fce-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing4[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="1.478"/>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing4[us, 12345, Schenectady](2)" classname="Ch1.First" time="1.568"/>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing4[ca, B2R, Waverley](3)" classname="Ch1.First" time="1.338"/>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizingExtractPlace[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="1.913">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:16 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3Pi3ZjKfcnQdq7LMHEviPM8ANXBWKyQMqKYRsxSBwY4sm4Dsjpwm9OM3Ga3qGsg3IDI5nY3P3x5neBH%2B0UML8E8GsC3Ag9DzaUYUKV%2F9bqNgn8mIAGhs8J2KYJQS7dpalteBKg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 82049376993b11ad-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+here is the place ===========> Beverly Hills
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizingExtractPlace[us, 12345, Schenectady](2)" classname="Ch1.First" time="1.615">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:18 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Fa87WfMe9GBa1QYQNidQvx1%2Ff3kfBPYsEpd6yIOsAvrfUVZTR9KGAqoCIkfJd8XFlH6CRfV%2BZQygk0eO4Qfl7Zi7Cfj2iWBZxkXV1nbyELFFzcMcOwQEfAXwEkmfcfq90f1BQA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 82049383b9ed41ea-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+here is the place ===========> Schenectady
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizingExtractPlace[ca, B2R, Waverley](3)" classname="Ch1.First" time="1.161">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 12:21:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-cache: hit
+charset: UTF-8
+vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QtZ1SE4pE%2BOCOteMBFAtQR7uo0%2FcbzksgDmBq%2B3oBqJzbKneR475J0MjvAD9YinLQ6OylJYMJGhxjxdlCEZGn7EdjiwJzUFSJK%2F9vjsiWIlpRXDt3hsbdR7ndGw1Xj9DdctMgA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8204938bcdb30fd2-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+here is the place ===========> Waverley
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterPojo" classname="Ch1.First" time="1.364"/>
+  <testcase name="createNewPet" classname="Ch1.First" time="2.384">
+    <system-out><![CDATA[Body:
+{
+    "id": 0,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "testt"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

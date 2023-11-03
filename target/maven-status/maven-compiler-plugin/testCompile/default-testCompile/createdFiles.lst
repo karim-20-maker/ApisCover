@@ -1,0 +1,13 @@
+ResponseModels/PetResponse.class
+RequestModel/Pet$Tag.class
+RequestModel/Pet$Category.class
+Ch1/Place.class
+RequestModel/Category.class
+RequestModel/photoUrls.class
+ResponseModels/PetResponse$Category.class
+Ch1/First.class
+Ch1/Location.class
+RequestModel/tags.class
+RequestModel/petsBody.class
+ResponseModels/PetResponse$Tag.class
+RequestModel/Pet.class
