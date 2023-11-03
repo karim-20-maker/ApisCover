@@ -1,0 +1,12 @@
+<suite thread-count="2" verbose="1" name="Parallel Test Suite"
+annotations="JDK" parallel="tests">
+  <test name="Test1">
+<classes>
+<class name="webSelenium.Suite1.Test1"/> 
+</classes>
+</test>
+ <test name="Test2">
+<classes>
+<class name="webSelenium.Suite2.Test2" /> </classes>
+</test>
+</suite>
