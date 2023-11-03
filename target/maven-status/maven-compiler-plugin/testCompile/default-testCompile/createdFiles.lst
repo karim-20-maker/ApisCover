@@ -1,11 +1,12 @@
 ResponseModels/PetResponse.class
 RequestModel/Pet$Tag.class
 RequestModel/Pet$Category.class
+webSelenium/Suite1/Test1.class
 Ch1/Place.class
 RequestModel/Category.class
+webSelenium/Suite2/Test2.class
 RequestModel/photoUrls.class
 ResponseModels/PetResponse$Category.class
-Ch1/First.class
 Ch1/Location.class
 RequestModel/tags.class
 RequestModel/petsBody.class
