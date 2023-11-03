@@ -1,41 +1,384 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-03T19:04:20 EET" name="Parallel Test Suite" finished-at="2023-11-03T19:04:30 EET" duration-ms="10903">
+  <suite started-at="2023-11-03T19:15:29 EET" name="Parallel Test Suite" finished-at="2023-11-03T19:15:45 EET" duration-ms="16254">
     <groups>
     </groups>
-    <test started-at="2023-11-03T19:04:20 EET" name="Test1" finished-at="2023-11-03T19:04:30 EET" duration-ms="10809">
-      <class name="webSelenium.Suite1.Test1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:webSelenium.Suite1.Test1@d706f19]" started-at="2023-11-03T19:04:20 EET" name="setup" finished-at="2023-11-03T19:04:30 EET" duration-ms="10527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testSelenium4()[pri:0, instance:webSelenium.Suite1.Test1@d706f19]" started-at="2023-11-03T19:04:30 EET" name="testSelenium4" finished-at="2023-11-03T19:04:30 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSelenium4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:webSelenium.Suite1.Test1@d706f19]" started-at="2023-11-03T19:04:30 EET" name="tearDown" finished-at="2023-11-03T19:04:30 EET" duration-ms="277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- webSelenium.Suite1.Test1 -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-11-03T19:04:20 EET" name="Test2" finished-at="2023-11-03T19:04:30 EET" duration-ms="10903">
+    <test started-at="2023-11-03T19:15:29 EET" name="Test2" finished-at="2023-11-03T19:15:41 EET" duration-ms="12083">
       <class name="webSelenium.Suite2.Test2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:webSelenium.Suite2.Test2@2b6faea6]" started-at="2023-11-03T19:04:20 EET" name="setup" finished-at="2023-11-03T19:04:30 EET" duration-ms="10501" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:webSelenium.Suite2.Test2@2b6faea6]" started-at="2023-11-03T19:15:29 EET" name="setup" finished-at="2023-11-03T19:15:41 EET" duration-ms="11682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSelenium4()[pri:0, instance:webSelenium.Suite2.Test2@2b6faea6]" started-at="2023-11-03T19:04:30 EET" name="testSelenium4" finished-at="2023-11-03T19:04:30 EET" duration-ms="0" status="PASS">
+        <test-method signature="testSelenium4()[pri:0, instance:webSelenium.Suite2.Test2@2b6faea6]" started-at="2023-11-03T19:15:41 EET" name="testSelenium4" finished-at="2023-11-03T19:15:41 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelenium4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:webSelenium.Suite2.Test2@2b6faea6]" started-at="2023-11-03T19:04:30 EET" name="tearDown" finished-at="2023-11-03T19:04:30 EET" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webSelenium.Suite2.Test2@2b6faea6]" started-at="2023-11-03T19:15:41 EET" name="tearDown" finished-at="2023-11-03T19:15:41 EET" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- webSelenium.Suite2.Test2 -->
     </test> <!-- Test2 -->
+    <test started-at="2023-11-03T19:15:29 EET" name="Test1" finished-at="2023-11-03T19:15:42 EET" duration-ms="12712">
+      <class name="webSelenium.Suite1.Test1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:webSelenium.Suite1.Test1@d706f19]" started-at="2023-11-03T19:15:29 EET" name="setup" finished-at="2023-11-03T19:15:42 EET" duration-ms="12385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSelenium4()[pri:0, instance:webSelenium.Suite1.Test1@d706f19]" started-at="2023-11-03T19:15:42 EET" name="testSelenium4" finished-at="2023-11-03T19:15:42 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelenium4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webSelenium.Suite1.Test1@d706f19]" started-at="2023-11-03T19:15:42 EET" name="tearDown" finished-at="2023-11-03T19:15:42 EET" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webSelenium.Suite1.Test1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-11-03T19:15:29 EET" name="Test3" finished-at="2023-11-03T19:15:45 EET" duration-ms="16253">
+      <class name="Ch1.First">
+        <test-method is-config="true" signature="createResponseSpecifications()[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:29 EET" name="createResponseSpecifications" finished-at="2023-11-03T19:15:29 EET" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResponseSpecifications -->
+        <test-method is-config="true" signature="createRequestSpecifications()[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:29 EET" name="createRequestSpecifications" finished-at="2023-11-03T19:15:30 EET" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequestSpecifications -->
+        <test-method signature="P1_mayar()[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:30 EET" name="P1_mayar" finished-at="2023-11-03T19:15:30 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P1_mayar -->
+        <test-method signature="TestGetRequestToStartCourse()[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:30 EET" name="TestGetRequestToStartCourse" finished-at="2023-11-03T19:15:31 EET" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourse -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:31 EET" name="TestGetRequestToStartCourseAfterParametrizing" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:33 EET" duration-ms="1488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beverly Hills]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:33 EET" name="TestGetRequestToStartCourseAfterParametrizing" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:33 EET" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schenectady]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:33 EET" name="TestGetRequestToStartCourseAfterParametrizing" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:34 EET" duration-ms="571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B2R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Waverley]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:34 EET" name="TestGetRequestToStartCourseAfterParametrizing2" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:34 EET" duration-ms="523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beverly Hills]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing2 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:34 EET" name="TestGetRequestToStartCourseAfterParametrizing2" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:34 EET" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schenectady]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing2 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:35 EET" name="TestGetRequestToStartCourseAfterParametrizing2" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:35 EET" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B2R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Waverley]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing2 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:35 EET" name="TestGetRequestToStartCourseAfterParametrizing3" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:36 EET" duration-ms="735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beverly Hills]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing3 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:36 EET" name="TestGetRequestToStartCourseAfterParametrizing3" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:36 EET" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schenectady]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing3 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing3(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:36 EET" name="TestGetRequestToStartCourseAfterParametrizing3" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:37 EET" duration-ms="756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B2R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Waverley]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing3 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:37 EET" name="TestGetRequestToStartCourseAfterParametrizing4" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:38 EET" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beverly Hills]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing4 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:38 EET" name="TestGetRequestToStartCourseAfterParametrizing4" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:39 EET" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schenectady]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing4 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizing4(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:39 EET" name="TestGetRequestToStartCourseAfterParametrizing4" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:40 EET" duration-ms="1810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B2R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Waverley]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizing4 -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizingExtractPlace(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:40 EET" name="TestGetRequestToStartCourseAfterParametrizingExtractPlace" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:41 EET" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beverly Hills]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizingExtractPlace -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizingExtractPlace(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:41 EET" name="TestGetRequestToStartCourseAfterParametrizingExtractPlace" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:42 EET" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[us]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Schenectady]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizingExtractPlace -->
+        <test-method signature="TestGetRequestToStartCourseAfterParametrizingExtractPlace(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:42 EET" name="TestGetRequestToStartCourseAfterParametrizingExtractPlace" data-provider="zipCodesAndPlaces" finished-at="2023-11-03T19:15:43 EET" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ca]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B2R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Waverley]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterParametrizingExtractPlace -->
+        <test-method signature="TestGetRequestToStartCourseAfterPojo()[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:43 EET" name="TestGetRequestToStartCourseAfterPojo" finished-at="2023-11-03T19:15:43 EET" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetRequestToStartCourseAfterPojo -->
+        <test-method signature="createNewPet()[pri:0, instance:Ch1.First@5223e5ee]" started-at="2023-11-03T19:15:43 EET" name="createNewPet" finished-at="2023-11-03T19:15:45 EET" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPet -->
+      </class> <!-- Ch1.First -->
+    </test> <!-- Test3 -->
   </suite> <!-- Parallel Test Suite -->
 </testng-results>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.108" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.585" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="EG"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.7.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire/surefirebooter6669907199074818423.jar /Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire 2023-11-03T19-04-19_107-jvmRun1 surefire9049205968283766229tmp surefire_016112167384059104342tmp"/>
+    <property name="sun.java.command" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire/surefirebooter7422870013855267983.jar /Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire 2023-11-03T19-15-29_190-jvmRun1 surefire5157751150950246714tmp surefire_012862453154864600249tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/test-classes:/Users/salemk/Downloads/TAU_RestAssured_Course/target/classes:/Users/salemk/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/salemk/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/salemk/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/salemk/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/salemk/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/salemk/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/salemk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/salemk/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/salemk/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/salemk/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/salemk/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/salemk/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/salemk/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/salemk/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/salemk/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/salemk/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-java/4.13.0/selenium-java-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-api/4.13.0/selenium-api-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.13.0/selenium-chrome-driver-4.13.0.jar:/Users/salemk/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/salemk/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/salemk/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/salemk/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/salemk/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/salemk/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/salemk/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/salemk/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.13.0/selenium-chromium-driver-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-json/4.13.0/selenium-json-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.13.0/selenium-manager-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.13.0/selenium-devtools-v115-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.13.0/selenium-devtools-v116-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.13.0/selenium-devtools-v117-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.13.0/selenium-devtools-v85-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.13.0/selenium-edge-driver-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.13.0/selenium-firefox-driver-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-http/4.13.0/selenium-http-4.13.0.jar:/Users/salemk/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.13.0/selenium-ie-driver-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.13.0/selenium-remote-driver-4.13.0.jar:/Users/salemk/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/salemk/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/salemk/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/salemk/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/salemk/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/salemk/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/salemk/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/salemk/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/salemk/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/salemk/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-os/4.13.0/selenium-os-4.13.0.jar:/Users/salemk/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.13.0/selenium-safari-driver-4.13.0.jar:/Users/salemk/.m2/repository/org/seleniumhq/selenium/selenium-support/4.13.0/selenium-support-4.13.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire/surefirebooter6669907199074818423.jar"/>
+    <property name="surefire.real.class.path" value="/Users/salemk/Downloads/TAU_RestAssured_Course/target/surefire/surefirebooter7422870013855267983.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
     <property name="user.name" value="salemk"/>
@@ -52,17 +52,513 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testSelenium4" classname="webSelenium.Suite2.Test2" time="0.001">
-    <system-out><![CDATA[abdo
+  <testcase name="P1_mayar" classname="Ch1.First" time="0">
+    <system-out><![CDATA[mayar
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Nov 03, 2023 7:04:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
-Nov 03, 2023 7:04:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourse" classname="Ch1.First" time="1.629">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:31 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6NBcXiQSlUu4b18%2BYixX7iy3%2BTlb2LhpM%2BAHRXUl7sWNSaq5xmGufCE9%2F%2FlB8PovJNKlaVjnv5QP5Pc9Tyd4r9p2yMhyTsI3z%2BaZJeIqv1u%2FhIIsTruHYwjQeHKsFDFjS6XJsQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8206427e4d610dc2-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="1.489">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:33 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TN1yL1Ngah55TYHaQlV3b3BpReVT%2BNPJk1qq5y1eKsAvjqmihHH4JLpx1vdk7r5VZKg5h2zKu4Fv4ZNSiKNGL8dQ1MNIRA6GJkQN40n4uVex4%2FrBWiQ41Z2PmhvR5kE%2FYNBrww%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 82064284b8466f77-ATH
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing[us, 12345, Schenectady](2)" classname="Ch1.First" time="0.373">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:33 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dqJ2yaeYK7rWy0FkfjRbMZGFRJ9RmjZRp9uWZuC1oP4kCUl20ABmBqYN4lZV%2BEild9v4xToMzsqL5cCjVcy8oxnUefPjtH9ROqCWNKy4dGoUowoXBbTr9DPyfGcODdwFRvimxA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8206428dbab1d33b-CDG
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing[ca, B2R, Waverley](3)" classname="Ch1.First" time="0.566">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:34 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gISrvRtkg4SsjSkPq6Vv9YwFvxLnK2N0BuXh8TthLzyDrvE3G2VtN%2FQCZVa%2B759c%2FQ76cfoJqd4CUxR1xCketWmB6Lb9B5F1KqinGqPfnW6RAZvpf7LRRfe6UVd%2B2dnALA1Hpg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8206429089410c50-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing2[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="0.525">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:34 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p91oFG30McRELqKWLqAk3MuyCScXZD464ByYT95O2a%2F2cq5%2Bo9Iiga0QDzV3tDaDFFNQweYjLBpjqz6vI8ClQFjfLTF2%2B3nsZfp3MHit9BKIIH%2Fkm0Yu1bU4rRXuSMHIo23zkQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642939da2eec8-ATH
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing2[us, 12345, Schenectady](2)" classname="Ch1.First" time="0.396">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:35 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aKe7qkowgkqY2C9%2FuoxU9kOjz5Td225wCAv%2FL1hIRwxtI%2FpNThYpXYDXL1MP2nSYYpApGG%2F%2BUv37IAaMMx4JvcYaNuKbBzyf4L1ZmUQGKR6IDiSHjemIkepwckoNgUHHwXbrAA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 82064296d914fd76-ATH
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing2[ca, B2R, Waverley](3)" classname="Ch1.First" time="0.589">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:35 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UgOKqUOqttBHOH5tQaefzkOzfDwGuTZFbRAYr8CFxKAtyzMVjdzD5Tnzzr89HSpoVG%2FR0x6JZbRX1E7ia1wofkMmdiURxIfatXvyDb4zmh9OyamQw1Xry7736ysBRJHbUaEZ2Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642994c07eea0-ATH
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing3[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="0.736">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:36 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=onZh2yaV%2F5Po5wLG9bmQT%2BIMFduZEWD4bMxufxyKFom233IGCe0KyILZN0FE1hFuWJ%2Baz1ghBPVt1LJH3KV4AKcytWJ%2BbTssg1m%2FqmF1Jbxwu1yATq3mUt7yABalXP86Ii0%2FCA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 8206429ddbbc0ff2-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[Nov 03, 2023 7:15:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
 ]]></system-err>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing3[us, 12345, Schenectady](2)" classname="Ch1.First" time="0.507">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:36 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RJQX9axqmTzgupx2tUiwjNB3DAphalsVrbgjk1XITJOF4RW2tbBmd0fSlgzir15AaEWYgunpFbR%2Bxo82ifhH1PeO7W%2Be9aeLah1WFHOjYSDw8%2BT3CYjsLVbwUqhgsq2lxRBLMA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642a20cac11c0-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing3[ca, B2R, Waverley](3)" classname="Ch1.First" time="0.756">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:37 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9PzT5jzmG%2FKrfF%2BPz1yySFJdKvUMoAkMco8EJftLwNCsK8nUwE0VKf7plt0Lo%2BNPR25Mvps3aK0U1oXTyevJLs7y4GcNmGFbgV66eVYS%2FThb2vcUnNsWmmqdfsFfVgcKW5ibwQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642a65d9f73c7-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[Nov 03, 2023 7:15:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
+]]></system-err>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing4[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="0.647"/>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing4[us, 12345, Schenectady](2)" classname="Ch1.First" time="0.862"/>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizing4[ca, B2R, Waverley](3)" classname="Ch1.First" time="1.809"/>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizingExtractPlace[us, 90210, Beverly Hills](1)" classname="Ch1.First" time="0.26">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:41 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bCoP5xeEF8JqpeNx4jPH%2BKYIOlvW4GvNCb9m6KZe86Wkw4BkuLdwIo8nlsW2hwhw3U1iGL6LGCmkoQERKECZyzVPswAP0JuRXFdNXpOjRnBTCTIjtHd5kI%2FiPG4gK1aNXnSRIw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642bf6b7911a1-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "90210",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Beverly Hills",
+            "longitude": "-118.4065",
+            "state": "California",
+            "state abbreviation": "CA",
+            "latitude": "34.0901"
+        }
+    ]
+}
+here is the place ===========> Beverly Hills
+]]></system-out>
+    <system-err><![CDATA[Nov 03, 2023 7:15:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizingExtractPlace[us, 12345, Schenectady](2)" classname="Ch1.First" time="0.201">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:42 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h5Wj8BryZyjceZhT2diwFJ2wLfckReLXjuHw1Kxu8fSxPUK1g%2FbUPuSIxfVgrd%2Bm3YeLsfpMxzo6lApKpCpd98kurAchge%2FzJ6E4cY6O%2BxMEuanvmJp98Z%2BTIZQu3nj7XfUwpg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642c409ab0fe6-MRS
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "12345",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Schenectady",
+            "longitude": "-74.058",
+            "state": "New York",
+            "state abbreviation": "NY",
+            "latitude": "42.8333"
+        }
+    ]
+}
+here is the place ===========> Schenectady
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterParametrizingExtractPlace[ca, B2R, Waverley](3)" classname="Ch1.First" time="0.765">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Fri, 03 Nov 2023 17:15:43 GMT
+Content-Type: application/json
+x-cache: hit
+charset: UTF-8
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AZrbwoZ3woz4CAsD4LvwYwNblEWxKsp2MXgc45GwOwXKgAwu%2F0Ji5hkcezt1OdpUQxo3O%2FWMPV9Z987%2BZgmoMkw16uQ9gy%2BFVE4EbpzAMpnQ6jV%2Fat%2FgQz%2FeLsDtV7opBfiVCw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+access-control-allow-origin: *
+Server: cloudflare
+CF-RAY: 820642c8fc8d6f6d-ATH
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{
+    "post code": "B2R",
+    "country": "Canada",
+    "country abbreviation": "CA",
+    "places": [
+        {
+            "place name": "Waverley",
+            "longitude": "-63.5144",
+            "state": "Nova Scotia",
+            "state abbreviation": "NS",
+            "latitude": "44.7431"
+        }
+    ]
+}
+here is the place ===========> Waverley
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetRequestToStartCourseAfterPojo" classname="Ch1.First" time="0.9"/>
+  <testcase name="createNewPet" classname="Ch1.First" time="1.997">
+    <system-out><![CDATA[Body:
+{
+    "id": 0,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "testt"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testSelenium4" classname="webSelenium.Suite2.Test2" time="0.001">
+    <system-out><![CDATA[abdo
+]]></system-out>
   </testcase>
   <testcase name="testSelenium4" classname="webSelenium.Suite1.Test1" time="0">
     <system-out><![CDATA[karim
